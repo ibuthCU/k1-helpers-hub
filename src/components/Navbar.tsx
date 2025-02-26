@@ -35,6 +35,9 @@ export const Navbar = () => {
             <Link to="/guide" className="hover:text-primary transition-colors">
               Guide
             </Link>
+            <Link to="/checklist" className="hover:text-primary transition-colors">
+              Checklist
+            </Link>
             <Link to="/forms" className="hover:text-primary transition-colors">
               Forms
             </Link>
@@ -69,6 +72,13 @@ export const Navbar = () => {
                 onClick={() => setIsOpen(false)}
               >
                 Guide
+              </Link>
+              <Link
+                to="/checklist"
+                className="hover:text-primary transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                Checklist
               </Link>
               <Link
                 to="/forms"

@@ -9,6 +9,7 @@ import Index from "./pages/Index";
 import Guide from "./pages/Guide";
 import Forms from "./pages/Forms";
 import Chat from "./pages/Chat";
+import Checklist from "./pages/Checklist";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -23,6 +24,7 @@ const App = () => (
             <Route path="/guide" element={<Guide />} />
             <Route path="/forms" element={<Forms />} />
             <Route path="/chat" element={<Chat />} />
+            <Route path="/checklist" element={<Checklist />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
